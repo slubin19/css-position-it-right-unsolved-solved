@@ -1,38 +1,145 @@
+html, body {
+    height: 1000px;
+    width: 1000px;
+    background-color: bisque;
+}
 .robot-container {
+    left: 200px;
+    top: 200px;
+    padding:100px;
+    position: absolute;
+    display: flex;
 }
 
 .robot-face-shape {
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    border: 1px solid;
+    background-color: aqua;
+    border-radius: 300px/50px;
 }
 
 .robot-eye-left {
+    position: absolute;
+    left: 100px;
+    top: 75px;
+    height: 27px;
+    width: 42px;
+    background-image: radial-gradient(brown, white, aqua);
+    border-radius: 10px;
+    border: 1px solid rebeccapurple;
 }
 
 .robot-eye-right {
+    position: absolute;
+    right: 100px;
+    top: 75px;
+    height: 27px;
+    width: 42px;
+    background-image: radial-gradient(brown, white, aqua);
+    border-radius: 10px;
+    border: 1px solid rebeccapurple;
 }
 
 .robot-ear-left {
+    position: absolute;
+    height: 120px;
+    width: 18px;
+    background-image: linear-gradient(brown, white, yellow);
+    left: 105px;
+    top: 130px;
+    border: 1px solid rebeccapurple;
+    border-radius: 30px 10px 0 90px;
 }
 
 .robot-ear-right {
+    position: absolute;
+    height: 120px;
+    width: 18px;
+    background-image: linear-gradient(brown, white, yellow);
+    top: 130px;
+    left: 475px;
+    border: 1px solid rebeccapurple;
+    border-radius: 30px 10px 90px 0;
 }
 
 .robot-nose {
+    position: absolute;
+    height: 70px;
+    width: 55px;
+    background-image: url(https://fastly.picsum.photos/id/519/200/300.jpg?grayscale&hmac=N5_yDaAwp_TU_uIsFGVpzsVOsjJ1aLGpPVHNPkIFMms);
+    left: 180px;
+    top: 150px;
+    border: 1px solid rebeccapurple;
+    border-radius: 30px 10px 0 0;
 }
 
 .robot-teeth {
+    flex-direction: column;
+    position: absolute;
+    height: 90px;
+    width: 300px;
+    background-image: linear-gradient(tomato, orange);
+    left: 50px;
+    top: 250px;
+    border: 1px solid rebeccapurple;
+    border-radius: 50px 100px 50px 100px;
 }
 
 .robot-tooth {
+    display: inline-flex;
+    position: relative;
+    height: 15px;
+    width: 14px;
+    left: 40px;
+    background: black;
+    border: 1px solid rebeccapurple;
+    border-radius: 10% 10% 100% 100%;
 }
 
 .robot-hair-style {
+    flex-direction: column;
+    position: absolute;
+    height: 90px;
+    width: 450px;
+    background-image: linear-gradient(silver, orange);
+    left: 50px;
+    top: 40px;
+    border: 1px solid rgb(125, 46, 203);
+    border-radius: 40px 20px 30px 20px;
+    word-spacing: 70px;
 }
 
 .robot-hair-one {
+    display: inline-flex;
+    position: relative;
+    height: 120px;
+    width: 4px;
+    left: 40px;
+    background: white;
+    border: 1px solid rebeccapurple;
+    border-radius: 10% 10% 100% 100%;
 }
 
 .robot-hair-two {
+    display: inline-flex;
+    position: relative;
+    height: 120px;
+    width: 5px;
+    left: 40px;
+    background: orangered;
+    border: 1px solid rebeccapurple;
+    border-radius: 10% 10% 100% 100%;
 }
 
 .robot-hair-three {
+    display: inline-flex;
+    position: relative;
+    height: 120px;
+    width: 3px;
+    left: 40px;
+    background: white;
+    border: 1px solid rebeccapurple;
+    border-radius: 10% 10% 100% 100%;
 }
